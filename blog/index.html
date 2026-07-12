@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- HEADER -->
+<header class="bg-gray-900 text-white p-4">
+  <div class="max-w-6xl mx-auto flex justify-between">
+    <h1 class="font-bold">MyBlog</h1>
+
+    <nav class="space-x-4 text-sm">
+      <a href="#">Home</a>
+      <a href="#">Categories</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- FEATURED POSTS -->
+<section class="py-10">
+  <h2 class="text-2xl font-bold text-center mb-6">Featured Posts</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+
+    <div class="bg-white rounded shadow">
+      <img src="images/post1.svg" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold">Post One</h3>
+        <p class="text-sm">Short description of the post.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded shadow">
+      <img src="images/post2.svg" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold">Post Two</h3>
+        <p class="text-sm">Short description of the post.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded shadow">
+      <img src="images/post3.svg" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold">Post Three</h3>
+        <p class="text-sm">Short description of the post.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="py-6 text-center">
+  <h2 class="text-xl font-bold mb-4">Categories</h2>
+
+  <div class="space-x-2">
+    <span class="bg-gray-300 px-3 py-1 rounded">Tech</span>
+    <span class="bg-gray-300 px-3 py-1 rounded">Design</span>
+    <span class="bg-gray-300 px-3 py-1 rounded">Coding</span>
+  </div>
+</section>
+
+<!-- RECENT POSTS -->
+<section class="py-6 max-w-4xl mx-auto px-4">
+  <h2 class="text-xl font-bold mb-4">Recent Posts</h2>
+
+  <ul class="space-y-2">
+    <li class="bg-white p-3 rounded shadow">Post Title 1 - 2026</li>
+    <li class="bg-white p-3 rounded shadow">Post Title 2 - 2026</li>
+    <li class="bg-white p-3 rounded shadow">Post Title 3 - 2026</li>
+  </ul>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="py-10 text-center">
+  <h2 class="text-xl font-bold mb-4">Subscribe</h2>
+
+  <form class="space-y-3 max-w-md mx-auto">
+    <input type="email" placeholder="Your Email" class="w-full p-2 border rounded">
+    <button class="bg-gray-900 text-white px-4 py-2 rounded">Subscribe</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white text-center p-4">
+  <p>© 2026 MyBlog</p>
+</footer>
+
+</body>
+</html>
