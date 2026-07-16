@@ -2,3 +2,6 @@ I created a simple and responsive portfolio and blog using Tailwind CSS.
 I used utility classes for layout, spacing, and styling to keep the design clean.
 Local images were used to organize the project and improve loading performance.
 The goal was to build a clear, responsive, and easy-to-use interface following the requirements.
+
+## Author
+**Godfred APPIAH BAAH**
